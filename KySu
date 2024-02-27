@@ -1,0 +1,12 @@
+
+public class KySu extends Canbo {
+	String NganhDaoTao;
+	//khoi tao constructor 
+	public KySu (String Hoten, int tuoi, String Gioitinh, String Diachi,String NganhDaoTao) 
+	{ super(Hoten, tuoi, Gioitinh, Diachi);
+	this.NganhDaoTao= NganhDaoTao;
+	} 
+
+	
+
+}
