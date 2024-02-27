@@ -1,0 +1,49 @@
+
+public class Canbo {
+	String Hoten;
+	int tuoi;
+	String Gioitinh;
+	String Diachi;
+	// constructor cho Canbo
+	public Canbo(String Hoten, int tuoi, String Gioitinh, String Diachi) {
+		this. Hoten = Hoten;
+		this.tuoi= tuoi;
+		this.Gioitinh = Gioitinh;
+		this.Diachi =Diachi;}
+	// Getter thong tin 
+	public String getHoten() {
+		return Hoten;
+	}
+	public void setHoten(String hoten) {
+		Hoten = hoten;
+	}
+	public int getTuoi() {
+		return tuoi;
+	}
+	public void setTuoi(int tuoi) {
+		this.tuoi = tuoi;
+	}
+	public String getGioitinh() {
+		return Gioitinh;
+	}
+	public void setGioitinh(String gioitinh) {
+		Gioitinh = gioitinh;
+	}
+	public String getDiachi() {
+		return Diachi;
+	}
+	public void setDiachi(String diachi) {
+		Diachi = diachi;
+	}
+	// Hien thi thong tin 
+	public void hienThiThongTin() {
+		  System.out.println("Họ tên: " + Hoten);
+	        System.out.println("Tuổi: " + tuoi);
+	        System.out.println("Giới tính: " + Gioitinh);
+	        System.out.println("Địa chỉ: " + Diachi);
+	}
+	
+	
+	
+
+}
