@@ -1,0 +1,9 @@
+
+public class NhanVien extends Canbo {
+	String congViec;
+	// khoi tao constructors
+	public NhanVien(String Hoten, int tuoi, String Gioitinh, String Diachi,String congViec) 
+	{
+		super(Hoten, tuoi, Gioitinh, Diachi);
+		this.congViec=congViec;
+			} }
