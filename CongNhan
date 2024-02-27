@@ -1,0 +1,11 @@
+
+public class CongNhan extends Canbo {
+	// ke thua Bậc
+	int bac;
+	// khoi tao constructor cho Cong Nhan
+	public CongNhan(String Hoten, int tuoi, String Gioitinh, String Diachi, int bac ) {
+		super(Hoten, tuoi, Gioitinh, Diachi);
+		this.bac= bac;
+		}
+
+}
